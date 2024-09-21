@@ -18,8 +18,6 @@ This project is a dynamic table management system built using modern web technol
   - For `string` columns, users can filter rows based on partial or complete text matches.
   - For `number` columns, filters like "equals", "greater than", or "less than" are supported.
 
-- **Sorting**: 
-  - Users can sort data in `number` columns using logical operators like "greater than or equal to" and "less than or equal to".
 
 ## Technologies Used
 
