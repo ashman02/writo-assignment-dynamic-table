@@ -48,6 +48,7 @@ const Home = () => {
 
   const addRow = () => {
     if(!columns.length) return
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const newRow: any = {}
     columns.forEach((column) => {
       newRow[column.name] = column.type === "string" ? [] : 0 // Default empty values
